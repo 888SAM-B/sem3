@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - B.Sam</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.5;
+            padding: 0 1rem;
+            max-width: 860px;
+            margin: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid #334155;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        nav h2 {
+            color: #38bdf8;
+            font-size: 1.4rem;
+        }
+
+        nav a,
+        .links a {
+            color: #94a3b8;
+            text-decoration: none;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            transition: 0.2s;
+        }
+
+        nav a:hover,
+        .links a:hover {
+            color: #fff;
+            background: #1e293b;
+        }
+
+        nav a[href="ex4.html"] {
+            background: #2563eb;
+            color: #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2.5rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            color: #f8fafc;
+        }
+
+        .hero h3 {
+            font-size: 1rem;
+            font-weight: normal;
+            color: #94a3b8;
+            margin: 0.5rem 0 1.2rem;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 0.8rem;
+        }
+
+        .links a {
+            border: 1px solid #334155;
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #38bdf8;
+            font-size: 1.3rem;
+            margin: 1.8rem 0 0.8rem;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 0.3rem;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skills-container span {
+            background: #1e293b;
+            border: 1px solid #334155;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        article {
+            background: #1e293b;
+            border-left: 3px solid #38bdf8;
+            padding: 0.8rem 1rem;
+            border-radius: 6px;
+            margin-bottom: 0.7rem;
+        }
+
+        article h3 {
+            font-size: 1rem;
+            color: #f8fafc;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+        }
+
+        article span {
+            font-size: 0.8rem;
+            color: #38bdf8;
+            font-weight: normal;
+        }
+
+        article p {
+            font-size: 0.88rem;
+            color: #94a3b8;
+            margin-top: 0.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h2>B.Sam</h2>
+
+        <div class="navs">
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#achievements">Achievements</a>
+            <a href="ex4.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Hello, I am Sam</h1>
+
+        <h3>
+            Full Stack Developer |
+            University Student |
+            Life Long Learner
+        </h3>
+
+        <div class="links">
+            <a
+                href="https://www.linkedin.com/in/b-sam-2b0b1a1b3/"
+                target="_blank"
+            >LinkedIn</a>
+
+            <a
+                href="https://github.com/888sam-b"
+                target="_blank"
+            >GitHub</a>
+
+            <a href="mailto:bsam53888@gmail.com">Email</a>
+        </div>
+    </div>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <span>REACT.JS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>SQL</span>
+            <span>Git / GitHub</span>
+            <span>AWS</span>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <article>
+            <h3>
+                Web Development Intern
+                <span>May 2026 – July 2026</span>
+            </h3>
+            <p>
+                <strong>Periyar University, Salem</strong> |
+                Portal &amp; Redesign Development
+            </p>
+        </article>
+
+        <article>
+            <h3>
+                Full Stack Development Intern
+                <span>June 2026</span>
+            </h3>
+            <p>
+                <strong>Tech S Cube, Salem</strong> |
+                DYC Coding Campus – Docker-based platform
+            </p>
+        </article>
+
+        <article>
+            <h3>
+                MERN Stack Development Intern
+                <span>May 2024</span>
+            </h3>
+            <p>
+                <strong>Livewire, Salem</strong> |
+                MERN CRUD, auth &amp; web apps
+            </p>
+        </article>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>
+                Periyar University NSS Portal
+                <span>[MERN]</span>
+            </h3>
+            <p>
+                NSS portal for managing colleges, units,
+                volunteers, events and reports.
+            </p>
+        </article>
+
+        <article>
+            <h3>
+                Learnmate
+                <span>[MERN]</span>
+            </h3>
+            <p>
+                AI-Powered personalized learning path
+                generator using LLMs.
+            </p>
+        </article>
+
+        <article>
+            <h3>
+                Coding Campus
+                <span>[Docker + React + Python + MongoDB]</span>
+            </h3>
+            <p>
+                Secure online compiler supporting
+                multi-language code execution.
+            </p>
+        </article>
+
+        <article>
+            <h3>
+                Entrance Examination Portal
+                <span>[Docker + React + Python + MySQL]</span>
+            </h3>
+            <p>
+                Web portal streamlining registration,
+                exams and results for admissions.
+            </p>
+        </article>
+
+        <article>
+            <h3>
+                University Website Redesigning
+                <span>[Next.js + Python + MySQL]</span>
+            </h3>
+            <p>
+                Responsive, dynamic portal managing
+                university school and dept info.
+            </p>
+        </article>
+    </section>
+
+    <section id="education">
+        <h2>Education Qualification</h2>
+
+        <article>
+            <h3>
+                Master of Computer Applications
+                <span>[CGPA: 8.9]</span>
+            </h3>
+            <p>2025 – Present | Periyar University, Salem</p>
+        </article>
+
+        <article>
+            <h3>
+                Bachelor of Science in Computer Science
+                <span>[CGPA: 8.4]</span>
+            </h3>
+            <p>
+                2022 – 2025 |
+                Jairam College of Arts and Science, Salem
+            </p>
+        </article>
+
+        <article>
+            <h3>
+                HSC
+                <span>[92%]</span>
+            </h3>
+            <p>
+                2020 – 2022 |
+                John Britto Matriculation Hr Sec School, Salem
+            </p>
+        </article>
+
+        <article>
+            <h3>
+                SSLC
+                <span>[83%]</span>
+            </h3>
+            <p>
+                2019 – 2020 |
+                John Britto Matriculation Hr Sec School, Salem
+            </p>
+        </article>
+    </section>
+
+   
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DYC Eduworks</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #f4f6f9; color: #333; line-height: 1.6; }
+        nav { background: #1e3a8a; display: flex; justify-content: space-between; align-items: center; padding: 14px 35px; }
+        nav h1 { color: #fff; font-size: 22px; }
+        .nav-links a { color: #fff; text-decoration: none; margin-left: 15px; font-weight: bold; padding: 6px 12px; border-radius: 4px; }
+        .nav-links a:hover, .nav-links a.active { background: #2563eb; }
+        .container { max-width: 850px; margin: 30px auto; padding: 25px; background: #fff; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+        h2 { color: #1e3a8a; margin: 15px 0 10px; border-bottom: 2px solid #2563eb; padding-bottom: 5px; }
+        .info { margin-bottom: 15px; padding: 12px; background: #eef2ff; border-radius: 6px; font-size: 14px; }
+        .info p { margin-bottom: 4px; }
+        .form-group { margin-bottom: 10px; }
+        label { display: block; margin-bottom: 3px; font-weight: bold; font-size: 13px; }
+        input, select, textarea { width: 100%; padding: 7px 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; }
+        button { background: #1e3a8a; color: #fff; border: none; padding: 9px 20px; font-weight: bold; border-radius: 4px; cursor: pointer; margin-top: 5px; }
+        button:hover { background: #2563eb; }
+        footer { text-align: center; padding: 15px; background: #1e3a8a; color: #fff; margin-top: 30px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>DYC Eduworks</h1>
+        <div class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="about-us.html">ABOUT DYC</a>
+            <a href="our-services.html">OUR SERVICES</a>
+            <a href="contact-us.html" class="active">CONTACT US</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="info">
+            <p><strong>Address:</strong> DYC Eduworks Tech Park, Salem - 636011, Tamil Nadu</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Email:</strong> info@dyceduworks.com</p>
+        </div>
+
+        <h2>Send an Inquiry</h2>
+        <form onsubmit="alert('Inquiry sent successfully!'); return false;">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Service Required</label>
+                <select id="service" required>
+                    <option value="">Select Service</option>
+                    <option value="web">Web Development</option>
+                    <option value="lms">LMS Platform</option>
+                    <option value="erp">Student ERP</option>
+                    <option value="mobile">Mobile App</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 DYC Eduworks. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
